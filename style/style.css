@@ -1,0 +1,145 @@
+body{
+    background-color:(218,218,218);
+    font-family: 'Bree Serif', serif;
+}
+.oll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 0;
+    border: solid rgba(70,70,70,0.6);
+    width: 70%;
+    background:linear-gradient(rgba(202,202,202,0.9),rgba(243,243,243,0.3)) ;
+    box-shadow: 22px -14px 5px 3px rgba(70,70,70,0.6);
+}
+.heder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-image:url(../img/fon.jpg);
+    background-size: cover ; 
+    background-position: 0px -898px;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+    box-shadow: 0px 127px 45px 0px rgba(70,70,70,0.2);
+}
+h1{
+    font-size: 55px;
+    color: cornsilk;
+    position: absolute;
+    top: 352px;
+}
+h2{
+    position: absolute;
+    top: 485px;
+}
+.tech-skills-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tech-skills-conteiner h3{
+    font-size: 40px;
+}
+.work-experience-h3,.education-h3,.tech-skills{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0;
+}
+.work-experience-conteiner,.education-conteiner,.contact,.tech-skills-conteiner{
+    margin: 20px;
+    background-color:rgba(202,202,202,0.9) ;
+    box-shadow: 0px 27px 18px 0px rgba(162,162,162,0.9);
+    border-radius: 75px;
+    padding-left: 88px;
+}
+.company1,.company2,.company3{
+    color:rgba(70,70,70,0.6) ;
+}
+.tech-skills-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    font-size: 26px;
+    color: #7a160e;
+}
+.company2{
+    position: relative;
+    left: 25%;
+    color:rgba(70,70,70,0.6) ;
+}
+.company3{
+    position: relative;
+    left: 55%;
+}
+.my_img{
+    width: 300px;
+    border-radius: 150px;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 143px;
+    padding-left: 10px;
+}
+.contact div{
+    display: flex;
+    justify-content: space-around;
+}
+.contact img{
+    flex-basis: 50px;
+    width: 50px;
+}
+.contact a{
+    margin-left: 10px;
+    color: #e4e4e4;
+    margin-top: 15px;
+}
+.contact1:hover a{
+    color:#464646;
+}
+.company1-h4{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 18px;
+}
+.orang-color{
+    color: #7a160e;
+}
+.time{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 14px;
+}
+.company1-ul{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+}
+.education-h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #7a160e;
+    margin-top: 21px;
+}
+.education-h5{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 15px;
+}
